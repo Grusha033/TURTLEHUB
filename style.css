@@ -199,8 +199,12 @@ body {
     .header-menu li {
         display: inline-block;
         list-style-type: none;
-        padding: 25px 40px;
+        padding: 30px 40px;
         border: 10px;
+    }
+
+    .header-menu {
+        padding: 10px 40px;
     }
     
     .space {
@@ -257,18 +261,18 @@ body {
         margin: 100px;
         padding: 0;
         width: auto;
-        height: 400px;
+        height: 370px;
     }
 
     /* Кнопка играть */
     .style-button2 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: 'Montserrat', sans-serif;                        
         background: linear-gradient(to left,#9d00ff,#00d9fa,#00d9fa);
         color: white;
         text-decoration: none;
-        padding: 30px 200px;
-        border-radius: 30px;
+        padding: 35px 125px;
+        border-radius: 40px;
         background-size: 200%;
         transition: .3s;
     }
@@ -278,4 +282,13 @@ body {
         transform: scale(1.5);
     }    
     /* Кнопка играть */
+
+    .play-button {
+        display: flex;
+        justify-content: center;
+        align-items: center top;
+        min-height: 10px;
+        margin: 200px;
+        padding: 0;
+    }
 }
