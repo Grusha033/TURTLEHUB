@@ -85,6 +85,8 @@ body {
     transform: scale(1.4);
     background-position: right;
 }
+
+
 /* Кнопка емоции ↓*/
 .style-button3-e {
     font-size: 30;
@@ -153,6 +155,70 @@ body {
     padding: 10px;
 }
 
+.space2 {
+    display: none;
+    justify-content: center;
+    align-items: center top;
+    min-height: 0px;
+    margin: 110px;
+    padding: 10px;
+    transition: .6s;
+}
+
+/* Бургер меню */
+.wrapper {
+    display: none;
+    margin: 20px auto;
+    width: 500px;
+    background:#00d9fa;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+#check-menu {
+    display: none;
+}
+
+.label-menu {
+    display: block;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 70px;
+}
+
+
+.main-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .3s all;
+    height: 350px;
+}
+
+
+#check-menu:checked ~ .main-menu {
+    max-height: 500px;
+    font-size: 16px;
+}
+
+/* конец бургер меню */
+
 @media screen and (max-width: 1200px) {
     .header-menu li {
         display: inline-block;
@@ -173,18 +239,22 @@ body {
         border-radius: 30px;
         background-size: 200%;
         transition: .3s;
+        margin: 15px;
+        display: flex;
     }
 
     .style-button1-active {
         font-size: 45px;
-        font-family: 'Montserrat', sans-serif;                           
-        background: linear-gradient(to right,#00d9fa,#9d00ff,#00d9fa);
+        font-family: 'Montserrat', sans-serif;                            
+        background: linear-gradient(to left,#00d9fa,#9d00ff,#00d9fa);
         color: white;
         text-decoration: none;
         padding: 15px 60px;
         border-radius: 30px;
         background-size: 200%;
         transition: .3s;
+        margin: 15px;
+        display: flex;
     }
 
     .header {
@@ -290,5 +360,17 @@ body {
         min-height: 10px;
         margin: 200px;
         padding: 0;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .space2 {
+        display: flex;
     }
 }
