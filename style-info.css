@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.server-info {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;   
+    color: white;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center top;
+}
+
+.stick {
+    display: block;
+    justify-content: center;
+    align-items: center top;
+    background:#535353;
+    height: 3px;
+    margin: 0 1050px;
+    background-size: 200%;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.cut-img {
+    display: flex;
+    width: 270px;
+    height: auto;
+    margin: -30px;
+}
+ /* розметка для информации */
+.item {
+    padding: 30px; /* висота кубіків*/
+    margin: 50px;
+    font-size: 20px;
+    border: 5px solid #535353;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.text-one {
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.img-one {
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+ 
+.rrules {
+    display: flex;
+    margin: 30px;
+    height: 1180px;
+    width: 1000px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 5px solid #535353;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.rrules-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center top;
+}
+
+.text-rrules {
+    margin: 17px;
+}
+
+.text-bolt-center {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center top;
+}
+
+.rules-link {
+    text-decoration: none;
+    color: #00d9fa;
+    transition: .3s;
+}
+
+.rules-link:hover {
+    transition: .3s;
+    text-shadow: 0 0 5px #969696, 0 0 10px #969696, 0 0 15px #969696 ;
+}
+
+.glov {
+    text-shadow: 0 0 10px #969696, 0 0 20px #969696, 0 0 30px #969696;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(130deg, #2d2722 50%, #00d9fa 50%);
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s;
+  }
+  
+  .arrowUp:hover {
+    background-position: 100% 0;
+  }
