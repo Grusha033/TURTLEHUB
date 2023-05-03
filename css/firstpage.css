@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+/* Контент на первой странице ↓*/
+
+.fpage-all {
+    display: flex;
+    align-items: center top;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.container-inside {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.fpage-block {
+    display: flex;
+    height: 130px;
+    margin-top: 100px;
+}
+.fpage-block-1 {
+    display: flex;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.fpage-block-2 {
+    display: block;
+    height: 40px;
+    margin-top: 45px;
+}
+
+.fpage-block-3 {
+    display: flex;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.headtext-fpage {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.headtext-fpage-s {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+}
+
+.join-btn {
+    background-color: #8a8a8a;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    transition: .3s;
+    padding: 8px 20px;
+}
+
+.join-btn:hover {
+    background-color: #00d9fa;
+    transition: .3s;
+}
+
+.headtext-fpage-t {
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3px;
+}
+
+
+/* mega block*/
+
+.mega-block-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-block {
+    /* background-color: deeppink; */
+    width: 320px;
+    height: 320px;
+}
+
+.img {
+    display: flex;
+    width: 320px;
+    height: 320px;
+    /* background-color: rgb(130, 20, 255); */
+}
