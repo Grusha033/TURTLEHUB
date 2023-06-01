@@ -117,3 +117,9 @@ header {
     height: 1170px; 
     width: 2450px;
 }
+
+.close-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+}
